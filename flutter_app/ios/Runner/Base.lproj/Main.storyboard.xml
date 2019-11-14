@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document initialViewController="BYZ-38-t0r" propertyAccessControl="none" systemVersion="15F34"
+    targetRuntime="iOS.CocoaTouch" toolsVersion="10117"
+    type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" useAutolayout="YES"
+    useTraitCollections="YES" version="3.0">
+    <dependencies>
+        <deployment identifier="iOS" />
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085" />
+    </dependencies>
+    <scenes>
+        <!--Flutter View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController customClass="FlutterViewController" id="BYZ-38-t0r"
+                    sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide id="y3c-jy-aDJ" type="top" />
+                        <viewControllerLayoutGuide id="wfy-db-euE" type="bottom" />
+                    </layoutGuides>
+                    <view contentMode="scaleToFill" id="8bC-Xf-vdC" key="view">
+                        <rect height="600" key="frame" width="600" x="0.0" y="0.0" />
+                        <autoresizingMask heightSizable="YES" key="autoresizingMask"
+                            widthSizable="YES" />
+                        <color alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"
+                            key="backgroundColor" white="1" />
+                    </view>
+                </viewController>
+                <placeholder id="dkx-z0-nzr" placeholderIdentifier="IBFirstResponder"
+                    sceneMemberID="firstResponder" />
+            </objects>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document colorMatched="YES" initialViewController="01J-lp-oVM" launchScreen="YES"
+    propertyAccessControl="none" systemVersion="16G29" targetRuntime="iOS.CocoaTouch"
+    toolsVersion="12121" type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB"
+    useAutolayout="YES" version="3.0">
+    <dependencies>
+        <deployment identifier="iOS" />
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089" />
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide id="Ydg-fD-yQy" type="top" />
+                        <viewControllerLayoutGuide id="xbc-2k-c8Z" type="bottom" />
+                    </layoutGuides>
+                    <view contentMode="scaleToFill" id="Ze5-6b-2t3" key="view">
+                        <autoresizingMask heightSizable="YES" key="autoresizingMask"
+                            widthSizable="YES" />
+                        <subviews>
+                            <imageView clipsSubviews="YES" contentMode="center" id="YRO-k0-Ey4"
+                                image="LaunchImage" multipleTouchEnabled="YES" opaque="NO"
+                                translatesAutoresizingMaskIntoConstraints="NO"></imageView>
+                        </subviews>
+                        <color alpha="1" blue="1" colorSpace="custom" customColorSpace="sRGB"
+                            green="1" key="backgroundColor" red="1" />
+                        <constraints>
+                            <constraint firstAttribute="centerX" firstItem="YRO-k0-Ey4"
+                                id="1a2-6s-vTC" secondAttribute="centerX" secondItem="Ze5-6b-2t3" />
+                            <constraint firstAttribute="centerY" firstItem="YRO-k0-Ey4"
+                                id="4X2-HB-R7a" secondAttribute="centerY" secondItem="Ze5-6b-2t3" />
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder id="iYj-Kq-Ea1" placeholderIdentifier="IBFirstResponder"
+                    sceneMemberID="firstResponder" userLabel="First Responder" />
+            </objects>
+            <point key="canvasLocation" x="53" y="375" />
+        </scene>
+    </scenes>
+    <resources>
+        <image name="LaunchImage" height="185" width="168" />
+    </resources>
+</document>
